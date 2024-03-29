@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Good for mobile-->
+  <title>Featherworks Homepage</title>
+  <!--CSS (Cascading Style Sheets) Specifications-->
+  <style>
+    body {
+      text-align: center;
+      /*font-style: oblique -90deg;*/
+      font-family: Georgia, serif;
+      margin: auto;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      font-size:1.6em;
+      background-color:rgb(214, 209, 237);
+      color:rgb(90, 61, 37);
+      
+    }
+    
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #eadfa3;
+    }
+    
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .square {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+    }
+    
+    .square:nth-child(odd) {
+      background-color: #007bff; /* Blue */
+    }
+    
+    .square:nth-child(even) {
+      background-color: #28a745; /* Green */
+    }
+    
+    .square img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Featherworks!</h1>
+</header>
+
+<main>
+  <p id="intro text" style="width:80%; text-align:center; justify-content: center; align-items: center; margin:auto; padding:1%;">You've found the homepage of a humble programmer with some neat things to share! Check out any of the handcrafted goodies below.</p>
+  
+  <section>
+    <a href="https://featherworks.github.io/Pages-Pusher/text%20trimmer.html" class="square" style="background-color: #dc3545;"> <!-- Red -->
+      <img src="https://via.placeholder.com/100" alt="Square 1">
+      Chat Log Text Trimmer
+    </a>
+    <a href="#section2" class="square" style="background-color: #ffc107;"> <!-- Yellow -->
+      <img src="https://via.placeholder.com/100" alt="Square 2">
+      Square 2
+    </a>
+    <a href="#section3" class="square" style="background-color: #6c757d;"> <!-- Gray -->
+      <img src="https://via.placeholder.com/100" alt="Square 3">
+      Square 3
+    </a>
+    <a href="#section4" class="square" style="background-color: #17a2b8;"> <!-- Cyan -->
+      <img src="https://via.placeholder.com/100" alt="Square 4">
+      Square 4
+    </a>
+    <a href="#section5" class="square" style="background-color: #6610f2;"> <!-- Purple -->
+      <img src="https://via.placeholder.com/100" alt="Square 5">
+      Square 5
+    </a>
+    <a href="#section6" class="square" style="background-color: #fd7e14;"> <!-- Orange -->
+      <img src="https://via.placeholder.com/100" alt="Square 6">
+      Square 6
+    </a>
+  </section>
+</main>
+<!--
+<footer>
+  <p>&copy; 2024 Featherworks. All rights reserved.</p>
+</footer>
+-->
+</body>
+</html>
